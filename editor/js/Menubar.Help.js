@@ -18,7 +18,7 @@ function MenubarHelp( editor ) {
 
 	// Source code
 
-	var option = new UIRow();
+	/*var option = new UIRow();
 	option.setClass( 'option' );
 	option.setTextContent( strings.getKey( 'menubar/help/source_code' ) );
 	option.onClick( function () {
@@ -44,7 +44,7 @@ function MenubarHelp( editor ) {
 
 	// About
 
-	var option = new UIRow();
+	/*var option = new UIRow();
 	option.setClass( 'option' );
 	option.setTextContent( strings.getKey( 'menubar/help/about' ) );
 	option.onClick( function () {
@@ -52,7 +52,7 @@ function MenubarHelp( editor ) {
 		window.open( 'https://threejs.org', '_blank' );
 
 	} );
-	options.add( option );
+	options.add( option );*/
 
 	// Manual
 
