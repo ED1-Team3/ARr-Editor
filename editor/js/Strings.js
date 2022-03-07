@@ -12,16 +12,16 @@ function Strings( config ) {
 			'menubar/file/export/geometry': 'Export Geometry',
 			'menubar/file/export/object': 'Export Object',
 			'menubar/file/export/scene': 'Export Scene',
-			'menubar/file/export/dae': 'Export DAE',
-			'menubar/file/export/drc': 'Export DRC',
+			/*'menubar/file/export/dae': 'Export DAE',
+			'menubar/file/export/drc': 'Export DRC',*/
 			'menubar/file/export/glb': 'Export GLB',
-			'menubar/file/export/gltf': 'Export GLTF',
+			/*'menubar/file/export/gltf': 'Export GLTF',
 			'menubar/file/export/obj': 'Export OBJ',
 			'menubar/file/export/ply': 'Export PLY',
 			'menubar/file/export/ply_binary': 'Export PLY (Binary)',
 			'menubar/file/export/stl': 'Export STL',
 			'menubar/file/export/stl_binary': 'Export STL (Binary)',
-			'menubar/file/export/usdz': 'Export USDZ',
+			'menubar/file/export/usdz': 'Export USDZ',*/
 			'menubar/file/publish': 'Publish',
 
 			'menubar/edit': 'Edit',
@@ -33,7 +33,7 @@ function Strings( config ) {
 			'menubar/edit/delete': 'Delete (Del)',
 			'menubar/edit/fixcolormaps': 'Fix Color Maps',
 
-			'menubar/add': 'Add',
+			/*'menubar/add': 'Add',
 			'menubar/add/group': 'Group',
 			'menubar/add/plane': 'Plane',
 			'menubar/add/box': 'Box',
@@ -56,13 +56,13 @@ function Strings( config ) {
 			'menubar/add/hemispherelight': 'HemisphereLight',
 			'menubar/add/ambientlight': 'AmbientLight',
 			'menubar/add/perspectivecamera': 'PerspectiveCamera',
-			'menubar/add/orthographiccamera': 'OrthographicCamera',
+			'menubar/add/orthographiccamera': 'OrthographicCamera',*/
 
 			'menubar/status/autosave': 'autosave',
 
-			'menubar/play': 'Play',
+			/*'menubar/play': 'Play',
 			'menubar/play/stop': 'Stop',
-			'menubar/play/play': 'Play',
+			'menubar/play/play': 'Play',*/
 
 			'menubar/examples': 'Examples',
 			'menubar/examples/Arkanoid': 'Arkanoid',
@@ -75,10 +75,14 @@ function Strings( config ) {
 			'menubar/view/fullscreen': 'Fullscreen',
 
 			'menubar/help': 'Help',
-			'menubar/help/source_code': 'Source Code',
-			'menubar/help/icons': 'Icon Pack',
-			'menubar/help/about': 'About',
+			//'menubar/help/source_code': 'Source Code',
+			//'menubar/help/icons': 'Icon Pack',
+			//'menubar/help/about': 'About',
 			'menubar/help/manual': 'Manual',
+
+			//keep for now
+			/*'menubar/publish': "Publish",
+			'menubar/publish/publish': "Publish",*/
 
 			'sidebar/animations': 'Animations',
 			'sidebar/animations/play': 'Play',
