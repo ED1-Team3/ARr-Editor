@@ -180,7 +180,7 @@ function MenubarFile( editor ) {
 
 	// Export DAE
 
-	var option = new UIRow();
+	/*var option = new UIRow();
 	option.setClass( 'option' );
 	option.setTextContent( strings.getKey( 'menubar/file/export/dae' ) );
 	option.onClick( async function () {
@@ -233,7 +233,7 @@ function MenubarFile( editor ) {
 		saveArrayBuffer( result, 'model.drc' );
 
 	} );
-	options.add( option );
+	options.add( option );*/
 
 	// Export GLB
 
@@ -260,7 +260,7 @@ function MenubarFile( editor ) {
 
 	// Export GLTF
 
-	var option = new UIRow();
+	/*var option = new UIRow();
 	option.setClass( 'option' );
 	option.setTextContent( strings.getKey( 'menubar/file/export/gltf' ) );
 	option.onClick( async function () {
@@ -397,7 +397,7 @@ function MenubarFile( editor ) {
 
 	//
 
-	options.add( new UIHorizontalRule() );
+	options.add( new UIHorizontalRule() );*/
 
 	// Publish
 
