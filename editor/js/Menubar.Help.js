@@ -61,7 +61,8 @@ function MenubarHelp( editor ) {
 	option.setTextContent( strings.getKey( 'menubar/help/manual' ) );
 	option.onClick( function () {
 
-		window.open( 'https://github.com/mrdoob/three.js/wiki/Editor-Manual', '_blank' );
+		//window.open( 'https://github.com/mrdoob/three.js/wiki/Editor-Manual', '_blank' );
+		
 
 	} );
 	options.add( option );
