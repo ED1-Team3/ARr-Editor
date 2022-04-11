@@ -19,9 +19,9 @@ function SidebarSettingsShortcuts( editor ) {
 
 	var container = new UIPanel();
 
-	var headerRow = new UIRow();
-	headerRow.add( new UIText( strings.getKey( 'sidebar/settings/shortcuts' ).toUpperCase() ) );
-	container.add( headerRow );
+	//var headerRow = new UIRow();
+	//headerRow.add( new UIText( strings.getKey( 'sidebar/settings/shortcuts' ).toUpperCase() ) );
+	//container.add( headerRow );
 
 	var shortcuts = [ 'translate', 'rotate', 'scale', 'undo', 'focus' ];
 
@@ -85,7 +85,7 @@ function SidebarSettingsShortcuts( editor ) {
 		shortcutRow.add( new UIText( strings.getKey( 'sidebar/settings/shortcuts/' + name ) ).setTextTransform( 'capitalize' ).setWidth( '90px' ) );
 		shortcutRow.add( shortcutInput );
 
-		container.add( shortcutRow );
+		//container.add( shortcutRow );
 
 	}
 
@@ -168,7 +168,7 @@ function SidebarSettingsShortcuts( editor ) {
 
 	}, false );
 
-	return container;
+	//return container;
 
 }
 
