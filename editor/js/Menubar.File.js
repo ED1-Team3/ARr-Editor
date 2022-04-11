@@ -400,13 +400,13 @@ function MenubarFile( editor ) {
 	options.add( new UIHorizontalRule() );*/
 
 	// Publish
-
+	// Add new Publish link(see Help section to get the link)
 	var option = new UIRow();
 	option.setClass( 'option' );
 	option.setTextContent( strings.getKey( 'menubar/file/publish' ) );
 	option.onClick( function () {
 
-		var toZip = {};
+		/*var toZip = {};
 
 		//
 
@@ -457,7 +457,7 @@ function MenubarFile( editor ) {
 
 			}
 
-			content = content.replace( '\t\t\t/* edit button */', editButton );
+			content = content.replace( '\t\t\t/* edit button *//*', editButton );
 
 			toZip[ 'index.html' ] = strToU8( content );
 
@@ -476,7 +476,12 @@ function MenubarFile( editor ) {
 
 			toZip[ 'js/VRButton.js' ] = strToU8( content );
 
-		} );
+		} );*/
+
+		//local html page for QR Code Generator(JS)
+		//change this to link the Publish button to the PHP version 
+		//of the Generator on Github
+		//window.open('http://127.0.0.1:55318/index.html', '_blank');
 
 	} );
 	options.add( option );
