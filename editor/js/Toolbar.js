@@ -62,7 +62,7 @@ function Toolbar( editor ) {
 	container.add( local );*/
 
 	//Perspective View
-	var perspectiveIcon = document.createElement( 'img' );
+	/*var perspectiveIcon = document.createElement( 'img' );
 	perspectiveIcon.title = strings.getKey( 'toolbar/perspectiveview' );
 	perspectiveIcon.src = 'images/perspective.png';
 
@@ -72,7 +72,7 @@ function Toolbar( editor ) {
 
 		signals.transformModeChanged.dispatch( 'perspectiveview' );
 
-	} );*/
+	} );
 	container.add( perspective );
 	
 	//Front View
@@ -86,7 +86,7 @@ function Toolbar( editor ) {
 
 		signals.transformModeChanged.dispatch( 'front' );
 
-	} );*/
+	} );
 	container.add( front );
 
 	//Top View
@@ -102,7 +102,7 @@ function Toolbar( editor ) {
 
 		signals.transformModeChanged.dispatch( 'topview' );
 
-	} );*/
+	} );
 	container.add( top );
 
 	//Side View
@@ -116,8 +116,8 @@ function Toolbar( editor ) {
 
 		signals.transformModeChanged.dispatch( 'sideview' );
 
-	} );*/
-	container.add( side );
+	} );
+	container.add( side );*/
 
 
 	signals.transformModeChanged.add( function ( mode ) {
